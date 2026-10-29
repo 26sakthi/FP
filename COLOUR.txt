@@ -1,4 +1,15 @@
-PRIMARY NAVY : #1E293B
-SUCCESS EMERALD : #10B981
-ALERT CRIMSON : #EF4444
-BACKGORUND SOFT GRAY : #F8FAFC
+Create a modern, single-page web dashboard for a retail "Inventory & Billing Management System". 
+
+Design System Requirements:
+- Background: Use a soft, clean, eye-friendly light gray background (#F8FAFC) to reduce strain during long retail shifts.
+- Layout Strategy: Left navigation sidebar in professional corporate Navy (#1E293B) with white text, a large central billing cart grid area, and a fixed right-side transaction/checkout ledger card.
+- Typography: Use the Inter or System-UI sans-serif typeface. Keep text crisp and scannable. Use extra bold and heavy weights exclusively for numerical pricing callouts and total balances.
+- UI Status & Feedback Colors:
+  * For positive math computations, grand totals, and success states, use Success Emerald (#10B981).
+  * For critical low-stock alert banners and error states, use Alert Crimson (#EF4444).
+
+Core Interactive Features to include on the page:
+1. A prominent top search/barcode input bar.
+2. A main billing itemized table detailing product descriptions, quantities, unit prices, HSN codes, and dynamic Indian GST splits (CGST & SGST).
+3. A low-stock notification ribbon showing warning status.
+4. A highly scannable right-hand payment panel displaying subtotal, tax breakdown, and a prominent call-to-action button for "Complete Pay & Print".
